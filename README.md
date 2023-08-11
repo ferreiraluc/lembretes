@@ -26,7 +26,7 @@ Essa API foi desenvolvida com o objetivo de fornecer um sistema para gerenciar p
 
 ### Pré-requisitos
 
-- Java 8 ou superior
+- Java 20 ou superior
 - Maven
 - Banco de dados (configurar no `application.properties`)
 
