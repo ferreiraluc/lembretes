@@ -28,7 +28,7 @@ public class LembreteController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    @PostMapping
+    @PostMapping("/{id}")
     public ResponseEntity<String> cadastrarLembrete(@RequestBody Lembrete lembrete) {
         try {
             lembreteService.cadastrar(lembrete);
